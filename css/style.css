@@ -31,12 +31,11 @@ header{
 nav>li{
     display: inline-block;
     text-align: center;
-    padding-left: 30px;
     color: white;
+    margin: 0 5px;
 }
 
 nav{
-    padding-left: 160px;
     padding-top: 25px;
 }
 nav>li a{
@@ -46,15 +45,10 @@ nav>li a{
 
 }
 
-nav.list-item:hover a{
+nav>li:hover a{
     background-color: black;
     border-radius: 20px;
     padding: 5px 5px;
-}
-
-nav.a-button li{
-    padding-left: 180px;
-    
 }
 
 img.float-left{
@@ -62,14 +56,26 @@ img.float-left{
     padding-left: 90px;
 }
 
+#logo {
+    width: 20%;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.listbar{
+    display: inline-block;
+    width: calc(70% - 60px);
+    padding-left: 150px;
+    
+}
+
 #accedi-button{
-    padding: 5px 5px 5px 5px;
-    border-radius: 30%;
+    padding: 5px 10px;
+    border-radius: 50px;
     border-color: white;
 }
 
 div.first-title{
-    height: 150px;
     text-align: center;
     position: absolute;
     
@@ -122,23 +128,48 @@ button.click-mac{
     border-color: white;
 }
 
-main{
-    position: relativ;
+.main-container{
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
 }
 
-.main-container{
-    height: 800px;
+main{
+    height: 2300px;
 }
 
 .photo-size{
     width: 500px;
     margin-top: 50px;
-    margin-left: 150px;
 }
 
 .description-content{
     width: 30%;
-    padding: 80px 80px;
+    padding: 80px 20px;
     font-family:'Montserrat', sans-serif;
-    margin-right: 150px;
+}
+
+div.description-content h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.tecnologia-contact{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.tecnologia-contact h1{
+    margin-bottom: 20px;
+}
+
+div h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    height: 500px;
+    background-color: rgb(49, 49, 49);
 }
