@@ -121,3 +121,24 @@ button.click-mac{
     color: black;
     border-color: white;
 }
+
+main{
+    position: relativ;
+}
+
+.main-container{
+    height: 800px;
+}
+
+.photo-size{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.description-content{
+    width: 30%;
+    padding: 80px 80px;
+    font-family:'Montserrat', sans-serif;
+    margin-right: 150px;
+}
